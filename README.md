@@ -28,12 +28,12 @@ foram abordados os seguintes tópicos no backend:
 
 ## 🛠️ Construído com:
 
-- [Express](https://expressjs.com/)
-- [CORS](https://expressjs.com/en/resources/middleware/cors.html)
-- [KnexJS](http://knexjs.org/)
-- [SQLite](https://github.com/mapbox/node-sqlite3)
-- [Node](https://github.com/node)
-- [Multer](https://github.com/expressjs/multer)
+- Express
+- CORS
+- KnexJS
+- SQLite
+- Node
+- Multer
 
 
 ## 💬 Características do projeto
@@ -89,6 +89,5 @@ Server PORT localhost:3333
 
 ## 🎨 Autor
 
-Feito com 💕 por Amanda Rocha
+Feito com 💕 por - [Amanda Rocha](www.linkedin.com/in/amanda-rocha-713067241)
 
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/amanda-rocha-713067241)
