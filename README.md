@@ -88,7 +88,7 @@ $ npm run dev
 ```
 Server PORT localhost:3333
 
-## 🎨 Autor
+### 🎨 Autor
 
 Feito com 💕 por - [Amanda Rocha](www.linkedin.com/in/amanda-rocha-713067241)
 
