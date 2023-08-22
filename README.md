@@ -1,5 +1,5 @@
 
-# Food explorer - API
+# 🚀 Food explorer - API
 ![Capa](https://github.com/httpsmanddy/api-food-explorer/assets/114830898/cffe5242-2771-43e4-ba44-735cf7d3fe43)
 
 - O Food Explorer é um menu digital de um restaurante fictício.
@@ -81,7 +81,7 @@ Clone o projeto, acesse a pasta e inicie o servidor.
 ### Clone o projeto, acesse a pasta, instale o servidor e inicie.
 
 ```bash
-$ git clone https://github.com/httpsmanddy/foodExplorer-api.git
+$ git clone https://github.com/httpsmanddy/api-food-explorer.git
 $ cd food-explorer-api
 $ npm install
 $ npm run dev
