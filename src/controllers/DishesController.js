@@ -25,14 +25,14 @@ class DishesController {
     if (hasOnlyOneIngredient) {
       ingredientsInsert = {
         name: ingredients,
-        dish_id
+        dish_id: dish_id
       }
 
     } else if (ingredients.length > 1) {
       ingredientsInsert = ingredients.map(ingredient => {
         return {
           name : ingredient,
-          dish_id
+          dish_id: dish_id
         }
       });
 
@@ -62,10 +62,10 @@ class DishesController {
     const filename = await diskStorage.saveFile(imageFilename);
 
     dish.image = filename;
-    dish.title = title ?? dish.title;
-    dish.description = description ?? dish.description;
-    dish.category = category ?? dish.category;
-    dish.price = price ?? dish.price;
+    dish.title = title ? title : dish.title;
+    dish.description = description ? description : dish.description;
+    dish.category = category ? category : dish.category;
+    dish.price = price ? category : dish.price;
 
     await knex("dishes").where({ id }).update(dish);
     await knex("dishes").where({ id }).update('updated_at', knex.fn.now());
