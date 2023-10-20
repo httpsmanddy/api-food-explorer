@@ -21,25 +21,23 @@ class DishesController {
 
     const hasOnlyOneIngredient = typeof(ingredients) === "string";
 
-    let ingredientsInsert
+    let ingredientsInsert;
+
     if (hasOnlyOneIngredient) {
       ingredientsInsert = {
         name: ingredients,
-        dish_id: dish_id
+        dish_id: dish_id[0],
       }
 
     } else if (ingredients.length > 1) {
       ingredientsInsert = ingredients.map(ingredient => {
         return {
           name : ingredient,
-          dish_id: dish_id
+          dish_id: dish_id[0],
         }
       });
-
-    } else {
-      return 
     }
-
+    console.log(ingredientsInsert);
     await knex("ingredients").insert(ingredientsInsert);
 
     return response.status(201).json();
