@@ -81,13 +81,6 @@ Clone o projeto, acesse a pasta e inicie o servidor.
   
 ### Clone o projeto, acesse a pasta, instale o servidor e inicie.
 
-```bash
-$ git clone https://github.com/httpsmanddy/api-food-explorer.git
-$ cd food-explorer-api
-$ npm install
-$ npm run dev
-```
-Server PORT localhost:3333
 
 ### 🎨 Autor
 
